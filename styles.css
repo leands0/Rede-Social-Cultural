@@ -30,12 +30,12 @@
   .searchInput {
     border-radius:7px;
     padding: 2px;
-  
+    margin-left: 350px;
   }
   
   .buttonsHeader {
     display: flexbox;
-    margin-left: 720px;
+    margin-left: 400px;
       }
 
   .Bell {
@@ -51,8 +51,7 @@
     border: 1px solid #786131;
     border-radius: 20px;
     background-color: #f1e9a9;
-    width: 250px;
-    height:250px;
+    height: 35vh;
     margin-left: 10px;
     ;
   }
@@ -62,11 +61,12 @@
     border: 1px solid #786131;
     border-radius: 20px;
     background-color: #f1e9a9;
-    min-width:60vw;
-    max-width: 80vw;
+    min-width:75vw;
+    max-width: 75vw;
     margin-left: 80px;
     min-height: 80vh;
-    overflow-y:auto;
+    max-height: 80vh;
+    overflow-y:scroll;
     overflow-x:hidden;
     
 }
@@ -102,6 +102,27 @@
     margin-right: 10px;
   }
 
+  .textInput {
+    border-radius: 5px;
+    border-color: #f9e2b1;
+    height: 50px;
+    width: 100%;
+    background-color:antiquewhite;
+    padding: 5px;
+  }
+
+  .posts {
+    border-radius: 5px;
+    border-color: #f9e2b1;
+    width: 100%;
+    background-color:antiquewhite;
+    padding: 10px;
+    margin-top: 10px;
+  }
+
+  li {
+    list-style-type: none;
+  }
 
   /* Color Theme Swatches in Hex */
   .Teste-1-1-hex { color: #786131; }
