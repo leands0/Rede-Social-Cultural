@@ -1,54 +1,60 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Rede Social Cultural</title>
-    
+    <title> Tela de Login</title>
+    <style>
+      body{
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .tela-login{
+        background-color: rgba(255, 255, 255, 0.7);
+        border-radius: 15px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        padding: 80px;
+        
+      }
+      input{
+        padding: 1px;
+        border: none;
+        outline: invert;
+        font-size: 15px;
+      }
+      button{
+        background-color: #F7C965;
+        border: none;
+        padding: 15px;
+        width: 100%;
+        border-radius: 10px;
+        color: #786131;
+        font-size: 15px;
+      }
+
+      footer{
+
+      }
+
+    </style>
     <link rel="stylesheet" href="styles.css">
     <script src="https://kit.fontawesome.com/6889065221.js" crossorigin="anonymous"></script>
   </head>
 
   <body>
-    <header id="divHeader">
-      
-      <div class="logo">
-      <a href="index.html"><h3>Culturalia</h3></a>
-      </div>
-      
-      <input class="searchInput" type="text" placeholder="Pesquisar">
-      
-
-      <div class="buttonsHeader">
-        <a href="notificações"><i class="fa-solid fa-bell"></i></a></div>
-        <a href="mensagens"><i class="fa-solid fa-message"></i></a>
-        <a href="login.html"><i class="fa-solid fa-square-plus"></i></a>
-        <a href="comunidades.html"><i class="fa-solid fa-user-group"></i></a>
-        <a href="perfil.html"><i class="fa-solid fa-circle-user"></i></a>
-          
-      
-    </header>
-
-    <div class="homeContainer">
-      <div class="communities container">
-        <p>Comunidades</p>
-      </div>
-            
-      <div class="mainContainer container">
-        <p>Feed de notícias</p>
-      </div>
-
-     
-    
+    <main>
+    <div class="tela-login">
+      <div class="logo-login"><h2>Culturalia</h2></div>
+      <br>
+      <input type="text" placeholder="E-mail">
+      <br> <br>
+      <input type="password" placeholder="Senha">
+      <br> <br>
+      <button><b>Enviar</b></button>
     </div>
+    </main>
 
-    <footer>
-      <div class="footer container">
-       <div class="about"> <a href="Sobre">Sobre</a></div>
-       <div class="terms"> <a href="Termos">Termos</a></div>
-       <div class="help"> <a href="Ajuda">Ajuda</a></div>
-       <div class="languages"> <a href="Idiomas">Idiomas</a></div>
-      </div>
-    </footer>
-
-    <link type= "text/javascript" src="index.js">
+    
   </body>
+  <link type= "text/javascript" src="index.js">
 </html>
