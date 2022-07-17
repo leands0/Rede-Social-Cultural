@@ -7,14 +7,16 @@
   body {
     font-family: sans-serif;
     background-color: #F9E2B1;
+    width: 100vw;
+    height: 100vh;
   }
   
   #divHeader {
-    min-height: 10vh;
+    min-height: 10%;
     width: 100%;
     background-color:#786131;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     top: 0;
     }
@@ -30,30 +32,30 @@
   .searchInput {
     border-radius:7px;
     padding: 2px;
-    margin-left: 350px;
-  }
+    }
   
   .buttonsHeader {
-    display: flexbox;
-    margin-left: 400px;
-      }
-
-  .Bell {
-    
-  }    
+    min-width: 20vw;
+    max-width: 40vw;
+    margin: 10px;
+    }
   
+  .fa-solid {
+    padding: 6%;  
+  }
   .homeContainer {
     display:flex;
-    margin: 15px;
+    margin-top: 2vh;
+    margin-bottom: 1vh;
+    justify-content: space-around;
 }
   .communities {
     box-sizing:border-box;
     border: 1px solid #786131;
     border-radius: 20px;
     background-color: #f1e9a9;
-    height: 35vh;
-    margin-left: 10px;
-    ;
+    height: 30vh;
+    max-width: 20vw;
   }
   
   .mainContainer {
@@ -61,18 +63,17 @@
     border: 1px solid #786131;
     border-radius: 20px;
     background-color: #f1e9a9;
-    min-width:75vw;
+    min-width: 40vw;
     max-width: 75vw;
-    margin-left: 80px;
     min-height: 80vh;
     max-height: 80vh;
     overflow-y:scroll;
     overflow-x:hidden;
-    
 }
    
   .footer {
     position: static;
+    bottom: auto;
     box-sizing: border-box;
     border-top: 1px solid #786131;
     background-color: #786131;
