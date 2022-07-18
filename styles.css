@@ -43,6 +43,7 @@
   .fa-solid {
     padding: 6%;  
   }
+
   .homeContainer {
     display:flex;
     margin-top: 2vh;
@@ -54,10 +55,11 @@
     border: 1px solid #786131;
     border-radius: 20px;
     background-color: #f1e9a9;
-    height: 30vh;
+    max-height: 35vh;
     max-width: 20vw;
+    overflow: auto;
   }
-  
+
   .mainContainer {
     box-sizing:border-box;
     border: 1px solid #786131;
@@ -70,7 +72,6 @@
     overflow-y:scroll;
     overflow-x:hidden;
 }
-   
   .footer {
     position: static;
     bottom: auto;
