@@ -126,6 +126,33 @@
     list-style-type: none;
   }
 
+/* página perfil */
+
+.perfil-header {
+  box-sizing: border-box;
+  width: 100%;
+  height: 150px;
+  position: relative;
+  border: solid black 1px;
+}
+
+.perfilContainer {
+  box-sizing:border-box;
+  border: 1px solid #786131;
+  border-radius: 20px;
+  background-color: #f1e9a9;
+  width: 500px;
+  min-height: 80vh;
+  max-height: 80vh;
+  overflow-y:scroll;
+  overflow-x:auto;
+  display: flex;
+  right: 50%;
+  transform: translateX(50%);
+}
+
+
+
   /* Color Theme Swatches in Hex */
   .Teste-1-1-hex { color: #786131; }
   .Teste-1-2-hex { color: #f9e2b1; }
