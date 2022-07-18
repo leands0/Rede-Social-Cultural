@@ -129,26 +129,37 @@
 /* página perfil */
 
 .perfil-header {
-  box-sizing: border-box;
-  width: 100%;
-  height: 150px;
-  position: relative;
-  border: solid black 1px;
+    box-sizing:border-box;
+    border: 1px solid #786131;
+    border-radius: 20px;
+    background-color: #f1e9a9;
+    height: fit-content;
+    width: 20vw;
+    min-width: 100px;
+    padding: 5px;
 }
 
-.perfilContainer {
+.perfil-feed {
   box-sizing:border-box;
   border: 1px solid #786131;
   border-radius: 20px;
   background-color: #f1e9a9;
-  width: 500px;
+  min-width: 40vw;
+  max-width: 70vw;
   min-height: 80vh;
   max-height: 80vh;
   overflow-y:scroll;
   overflow-x:auto;
-  display: flex;
-  right: 50%;
-  transform: translateX(50%);
+}
+
+.communities-header {
+  box-sizing:border-box;
+  border: 1px solid #786131;
+  border-radius: 20px;
+  background-color: #f1e9a9;
+  height: fit-content;
+  width: 20vw;
+  min-width: 150px;
 }
 
 
